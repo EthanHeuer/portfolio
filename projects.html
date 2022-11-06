@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Quicksand&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>Ethan Heuer Portfolio</title>
+</head>
+<body>
+<div id="container">
+
+	<!-- HEADER -->
+	<div id="header">
+		<!-- HEADER CANVAS -->
+		<canvas id="canvas"></canvas>
+
+		<!-- NAV -->
+		<div class="flex-box vertical">
+			<div class="flex-box horizontal gap" id="nav">
+				<a class="nav-item" href="index.html">About</a>
+				<a class="nav-item" href="connect.html">Connect</a>
+				<a class="nav-item selected" href="projects.html">Projects</a>
+			</div>
+			<div id="title">Projects</div>
+		</div>
+
+		<!-- INFO CARD -->
+		<div class="flex-box horizontal gap center" id="info-card">
+			<img id="profile" src="assets/profile.png">
+			<div class="flex-box vertical gap">
+				<div>Hello, I'm</div>
+				<div>Ethan Heuer!</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- CONTENT -->
+	<div id="content">
+		<!-- INVENTORY -->
+		<div>
+			<div>
+				<h2>Inventory Organizer</h2>
+				<div><b>Environment</b>: JavaScript</div>
+				<div><b>Github</b>: <a href="https://github.com/EthanHeuer/inventory">https://github.com/EthanHeuer/inventory</a></div>
+				<div><b>Live</b>: <a href="https://ethanheuer.github.io/inventory/">https://ethanheuer.github.io/inventory/</a></div>
+			</div>
+			<div class="collage single">
+			</div>
+			<div>
+				<h3>About</h3>
+				<div class="text">&#9;This game was a solo final project for my CS 144 course. The game was a bullethell where the while square (player) has to avoid the black squares. The game had several phases all of which were in sync with the sound track. Every compnent of was custom made, except the rendering functionality of SDL2. The project requirements were open ended and to create a project that would challenge yourself. My first introduction to SDL2 was through this project.</div>
+			</div>
+		</div>
+
+		<div class="break"></div>
+
+		<!-- SDL2 PROJECT-->
+		<div>
+			<div>
+				<h2>Class Project: C++ Game</h2>
+				<div><b>Environment</b>: Visual Studio, C++, SDL2</div>
+			</div>
+			<div class="collage tri">
+				<img src="assets/projects/bullethell/picture-0.png">
+				<img src="assets/projects/bullethell/picture-1.png">
+				<img src="assets/projects/bullethell/picture-2.png">
+			</div>
+			<div>
+				<h3>About</h3>
+				<div class="text">&#9;This game was a solo final project for my CS 144 course. The game was a bullethell where the while square (player) has to avoid the black squares. The game had several phases all of which were in sync with the sound track. Every compnent of was custom made, except the rendering functionality of SDL2. The project requirements were open ended and to create a project that would challenge yourself. My first introduction to SDL2 was through this project.</div>
+				<div>
+					<div><b>Main Track:</b></div>
+					<audio controls>
+						<source src="assets/projects/bullethell/track.wav" type="audio/wav">
+					</audio>
+				</div>
+			</div>
+		</div>
+
+		<div class="break"></div>
+
+		<!-- JAVAFX GAME -->
+		<div>
+			<div>
+				<h2>Class Project: Java Game</h2>
+				<div><b>Environment</b>: Eclipse, Java, JavaFX</div>
+				<div><b>Github</b>: <a href="https://github.com/CS145-Computer-Science-2/finalprogram-buelowheuer">https://github.com/CS145-Computer-Science-2/finalprogram-buelowheuer</a></div>
+			</div>
+			<div>
+				<h3>About</h3>
+				<div class="text">&#9;This game was a partner final project for my CS 145 course. The project requirements were to create any project that uses JavaFX. My partner and I exceeded the requirements and created a game using the canvas in JavaFX. The game was fully functional, had visual and audio elements, and additionally had a level editor. Besides the heart icon, player sprite, and slime sprite, all other visual and audio elements were made by my partner and I.</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script src="js/utility.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
