@@ -28,6 +28,7 @@ a:not(.nav-item):hover {
 }
 
 h1 {
+	color: #f0f0f0;
 	font-weight: bold;
 	font-size: 1.8em;
 	text-align: center;
